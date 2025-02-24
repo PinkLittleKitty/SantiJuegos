@@ -10,6 +10,26 @@ const retroGames = {
             }
         }
     },
+    'snes': {
+        displayName: 'Super Nintendo Entertainment System',
+        games: {
+            'super-mario-world': {
+                title: 'Super Mario World',
+                art: 'retro/boxart/snes/super-mario-world.png',
+                rom: 'retro/roms/snes/super-mario-world.smc'
+            }
+        }
+    },
+    'gba': {
+        displayName: 'Game Boy Advance',
+        games: {
+            'pokemon-fire-red': {
+                title: 'Pokémon Rojo Fuego',
+                art: 'retro/boxart/gba/pokemon-fire.red.png',
+                rom: 'retro/roms/gba/pokemon-fire-red.gba'
+            }
+        }
+    }
 };
 
 // Core functions
