@@ -15,8 +15,8 @@ const retroGames = {
         games: {
             'super-mario-world': {
                 title: 'Super Mario World',
-                art: 'retro/boxart/snes/super-mario-world.png',
-                rom: 'retro/roms/snes/super-mario-world.smc'
+                art: 'retro/boxart/snes/super-mario-world.jpg',
+                rom: 'retro/roms/snes/super-mario-world.sfc'
             }
         }
     },
@@ -25,11 +25,11 @@ const retroGames = {
         games: {
             'pokemon-fire-red': {
                 title: 'Pokémon Rojo Fuego',
-                art: 'retro/boxart/gba/pokemon-fire.red.png',
+                art: 'retro/boxart/gba/pokemon-fire-red.jpg',
                 rom: 'retro/roms/gba/pokemon-fire-red.gba'
             }
         }
-    }
+    },
 };
 
 // Core functions
